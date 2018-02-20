@@ -98,6 +98,12 @@ a.invisibleLink:hover{
     z-index: 100;
 }
 
+@media (max-width: 767px) {
+    #content{
+        margin-right: 10%;
+    }
+}
+
 #about{
     float: left;
     width: 50%;
