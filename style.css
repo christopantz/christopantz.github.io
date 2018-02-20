@@ -88,13 +88,12 @@ a.invisibleLink:hover{
 #content{
     float: right;
     margin-right: 25%;
-    position: absolute;
     width: 50%;
     height: auto;
-    overflow: scroll;
     text-align: center;
     padding-bottom: 50px;
     padding-top: 10px;
+    position: sticky;
     z-index: 100;
 }
 
@@ -105,7 +104,7 @@ a.invisibleLink:hover{
 }
 
 #about{
-    float: left;
+    float: right;
     width: 50%;
     height: auto;
     overflow: scroll;
@@ -114,8 +113,15 @@ a.invisibleLink:hover{
     background: black;
     padding-left: 25px;
     padding-right: 25px;
-    margin-left:30%;
+    margin-right: 15%;
+    position: sticky;
     z-index: 100;
+}
+
+@media (max-width: 767px) {
+    #about{
+        margin-right: 0%;
+    }
 }
 
 .gallery{

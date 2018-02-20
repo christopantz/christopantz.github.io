@@ -92,13 +92,12 @@ a.invisibleLink:hover{
 #content{
     float: right;
     margin-right: 25%;
-    position: absolute;
     width: 50%;
     height: auto;
-    overflow: scroll;
     text-align: center;
     padding-bottom: 50px;
     padding-top: 10px;
+    position: sticky;
     z-index: 100;
 }
 
@@ -110,7 +109,7 @@ a.invisibleLink:hover{
 
 
 #about{
-    float: left;
+    float: right;
     width: 50%;
     height: auto;
     overflow: scroll;
@@ -118,8 +117,9 @@ a.invisibleLink:hover{
     margin-top: 20%;
     background: black;
     padding-left: 25px;
-    color: white;
-    margin-left: 30%;
+    padding-right: 25px;
+    margin-right: 15%;
+    position: sticky;
     z-index: 100;
 }
 
