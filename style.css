@@ -88,6 +88,7 @@ a.invisibleLink:hover{
 #content{
     float: right;
     margin-right: 25%;
+    position: absolute;
     width: 50%;
     height: auto;
     overflow: scroll;
@@ -100,7 +101,7 @@ a.invisibleLink:hover{
 
 @media (max-width: 767px) {
     #content{
-        margin-right: 10%;
+        margin-right: 0%;
     }
 }
 
