@@ -108,6 +108,7 @@ a.invisibleLink:hover{
     padding-left: 25px;
     padding-right: 25px;
     margin-left:30%;
+    z-index: 100;
 }
 
 .gallery{
