@@ -49,6 +49,7 @@ header{
     top:5%;
     right:0%;
     text-align: right;
+    z-index: 150;
 }
 
 img{
