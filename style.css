@@ -35,13 +35,13 @@ header{
 }
 
 #navBar{
-    width: 30%;
+    width: 400px;
     position: fixed;
     margin-top: 150px;;
     margin-left: auto;
     float: left;
     height: 35%;
-    overflow: scroll;
+    z-index: 0;
 }
 
 #pageName{
@@ -93,6 +93,8 @@ a.invisibleLink:hover{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 10px;
+    position: sticky;
+    z-index: 100;
 }
 
 #about{
