@@ -101,6 +101,12 @@ a.invisibleLink:hover{
     #content{
         margin-right: 0%;
     }
+    #disclaimer{
+        overflow: scroll;
+    }
+    #about{
+        overflow: scroll;
+    }
 }
 
 #about{
@@ -116,12 +122,6 @@ a.invisibleLink:hover{
     margin-right: 15%;
     position: relative;
     z-index: 100;
-}
-
-@media (max-width: 767px) {
-    #about{
-        margin-right: 0%;
-    }
 }
 
 .gallery{

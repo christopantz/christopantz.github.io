@@ -105,8 +105,13 @@ a.invisibleLink:hover{
     #content{
         margin-right: 0%;
     }
+    #disclaimer{
+        overflow: scroll;
+    }
+    #about{
+        overflow: scroll;
+    }
 }
-
 
 #about{
     float: right;
